@@ -1,0 +1,101 @@
+#contact-info{
+    -fx-background-color: rgb(213, 225, 234);
+    -fx-border: none;
+    -fx-font-family: sans-serif;
+    -fx-font-weight: bold;
+}
+
+.text-field{
+    -fx-background-color: gray, white, white;
+    -fx-background-insets: -0.5 -0.5 -0.5 -0.5, 0000, 0.5 0.5 0.5 0.5;
+    -fx-background-radius: 0;
+}
+
+.text-field:focused{
+    -fx-background-color: gray, white, white;
+    -fx-background-insets: -1 -1 -1 -1, 0000, 0.5 0.5 0.5 0.5;
+}
+
+#add-button{
+    -fx-text-fill: white;
+    -fx-background-color: #1bb38b;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#add-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #0d7267;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#save-button{
+    -fx-text-fill: white;
+    -fx-background-color: #1bb38b;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#save-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #0d7267;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#exit-button{
+    -fx-text-fill: white;
+    -fx-background-color: #bb0c0c;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 7;
+}
+
+#exit-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #6d0606;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 7;
+}
+
+#memory-button{
+    -fx-text-fill: white;
+    -fx-background-color: #929292;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#memory-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #575656;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#title-pane{
+    -fx-background-color: #dceaef;
+}
+
+#exit-pane{
+    -fx-background-color: #dceaef;
+}
+
+#memory-pane{
+    -fx-background-color: #dceaef;
+}
+
+#program-func-box{
+    -fx-background-color: #dceaef;
+}
+
+#contact-button-box{
+    -fx-background-color: #dceaef;
+}

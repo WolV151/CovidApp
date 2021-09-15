@@ -1,0 +1,78 @@
+#title-pane{
+    -fx-background-color: #dceaef;
+}
+
+#content{
+    -fx-background-color: rgb(213, 225, 234);
+    -fx-border: none;
+    -fx-font-family: sans-serif;
+    -fx-font-weight: bold;
+}
+
+#button-pane{
+    -fx-background-color: #dceaef;
+}
+
+#search-button{
+    -fx-text-fill: white;
+    -fx-background-color: #929292;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#search-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #575656;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#refresh-button{
+    -fx-text-fill: white;
+    -fx-background-color: #1bb38b;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#refresh-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #0d7267;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#remove-button{
+    -fx-text-fill: white;
+    -fx-background-color: #bb0c0c;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 7;
+}
+
+#remove-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #6d0606;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 7;
+}
+
+#filter-button{
+    -fx-text-fill: white;
+    -fx-background-color: #929292;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+#filter-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #575656;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}

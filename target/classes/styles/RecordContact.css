@@ -1,0 +1,38 @@
+#title-pane{
+    -fx-background-color: #dceaef;
+}
+
+#contact-display{
+    -fx-background-color: rgb(213, 225, 234);
+    -fx-border: none;
+    -fx-font-family: sans-serif;
+    -fx-font-weight: bold;
+}
+
+.date-picker{
+    -fx-background-color: gray, white, white;
+    -fx-background-insets: -0.5 -0.5 -0.5 -0.5, 0000, 0.5 0.5 0.5 0.5;
+    -fx-background-radius: 0;
+}
+
+.combo-box{
+    -fx-background-color: gray, white, white;
+    -fx-background-insets: -0.5 -0.5 -0.5 -0.5, 0000, 0.5 0.5 0.5 0.5;
+    -fx-background-radius: 0;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: #1bb38b;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
+
+.button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #0d7267;
+    -fx-border-radius: 20;
+    -fx-background-radius: 0;
+    -fx-padding: 5;
+}
